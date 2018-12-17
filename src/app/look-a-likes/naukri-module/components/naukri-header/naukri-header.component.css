@@ -1,0 +1,25 @@
+.menu-dropdown {
+  padding: 13px;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.white-background {
+  background-color: white;
+}
+
+.menu-dropdown:hover {
+  background-color: #f5f5f5;
+  color: #09c;
+  font-weight: 600;
+}
+
+.container {
+  max-width: 990px;
+}
+
+.menu-dropdown:hover .menu-idem-underline {
+  font-weight: 700;
+  border-bottom: 4px solid #4A90E2;
+  display: inline;
+}
