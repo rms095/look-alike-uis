@@ -4,7 +4,7 @@ import {
   MatCardModule,
   MatCheckboxModule, MatFormFieldModule,
   MatIconModule, MatInputModule, MatListModule,
-  MatMenuModule, MatNavList, MatSidenavModule,
+  MatMenuModule, MatNavList, MatSidenavModule, MatChipsModule,
   MatToolbarModule, MatTooltipModule, MatBadgeModule, MatProgressBarModule
 } from "@angular/material";
 
@@ -22,7 +22,8 @@ import {
     MatCheckboxModule,
     MatListModule, 
     MatBadgeModule,
-    MatProgressBarModule
+    MatProgressBarModule,
+    MatChipsModule
   ],
   exports: [
     MatButtonModule,
@@ -37,7 +38,8 @@ import {
     MatCheckboxModule,
     MatListModule,
     MatBadgeModule,
-    MatProgressBarModule
+    MatProgressBarModule,
+    MatChipsModule
   ]
 })
 export class AngularMaterialModule{ }

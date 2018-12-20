@@ -61,3 +61,7 @@ ul {
     padding-right: 5px;
     font-size: 15px;
 }
+
+.mat-progress-bar .mat-progress-bar-element::after {
+    background-color: white !important;
+}

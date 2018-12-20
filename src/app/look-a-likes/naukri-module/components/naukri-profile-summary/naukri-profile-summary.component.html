@@ -1,29 +1,33 @@
- <div fxLayout="row" fxLayoutAlign="space-around center" style="height: 213px;">
+ <div fxLayout="column" fxLayoutAlign="space-around center" style="height: 213px;">
   <mat-card class="profile-summary-card" fxLayout="row" fxLayoutAlign="space-between start" fxLayoutGap="20px">
-      <div fxFlex="10" mat-card-avatar class="profile-pic" appMatBadgeIcon="home">
-        
-      </div>
+      <div fxFlex="10" mat-card-avatar class="profile-pic" appMatBadgeIcon="home"></div>
       <div fxFlex="60" fxLayout="column" fxLayoutGap="10px">
         <span class="profile-name">DEEPAK MADAN MORE<mat-icon style="padding-left: 10px">edit</mat-icon></span>
+
         <div><span class="profile-label"> Full Stack Developer at MyOwnWay</span></div>
+
         <div fxLayout="row" fxLayoutAlign="space-between start" class="profile-label">
           <div><mat-icon class="profile-icons">location_on</mat-icon>Pune, INDIA</div>
           <div><mat-icon class="profile-icons">phone</mat-icon>+91 9420390095</div>
           <div><mat-icon>check_circle_outline</mat-icon></div>
         </div>
+
         <div fxLayout="row" fxLayoutAlign="space-between start" class="profile-label">
           <div><mat-icon class="profile-icons">work</mat-icon>5 Year(s), 9 Month(s)</div>
           <div><mat-icon class="profile-icons">mail_outline</mat-icon>deepakmore@outlook.com</div>
           <div><mat-icon>check_circle_outline</mat-icon></div>
         </div>
+
         <span class="profile-label"><mat-icon class="profile-icons">account_balance_wallet</mat-icon>INR 10 Lakh(s)</span>
+
         <div>
           <span class="profile-label">Profile Strenght (Excellent) </span>
-          <mat-progress-bar
+          <mat-progress-bar class="white-progress-bar"
             mode="determinate"
             value="100" style="margin-top : 5px">
-        </mat-progress-bar>
+          </mat-progress-bar>
         </div>
+        
       </div>
       <div fxFlex="30" class="tips-block">
         <p class="tips-block-title">
@@ -36,4 +40,5 @@
         </ul>
       </div>
   </mat-card>
+
 </div>
