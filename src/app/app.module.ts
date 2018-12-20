@@ -6,7 +6,8 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {NaukriModule} from "./look-a-likes/naukri-module/naukri-module";
 import {AngularMaterialModule} from "./look-a-likes/angular-material-module/angular-material-module";
 import {FlexLayoutModule} from '@angular/flex-layout';
-import { MatBadgeIconDirective } from './look-a-likes/directives/mat-badge-icon.directive';
+import {MatBadgeIconDirective} from './look-a-likes/directives/mat-badge-icon.directive';
+import {YoutubeModule} from "./look-a-likes/youtube/youtube-module";
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { MatBadgeIconDirective } from './look-a-likes/directives/mat-badge-icon.
     BrowserModule,
     BrowserAnimationsModule,
     NaukriModule,
+    YoutubeModule,
     AngularMaterialModule,
     FlexLayoutModule
   ],
