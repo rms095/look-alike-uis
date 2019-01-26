@@ -1,0 +1,26 @@
+.sticky{
+    position: fixed;
+    top: 20px;
+    overflow: auto;
+    z-index: 10;
+    margin: auto;
+  }
+  
+  .content{
+    height: 200vh;
+  }
+
+  .mat-standard-chip {
+      border-radius: 10px !important;
+      padding: 15px;
+      background-color: #eeeeee;
+  }
+
+  .grey-color-text {
+    color: grey;
+  }
+
+  .card-title {
+    font-size: 20px;
+    font-weight: 700;
+  }

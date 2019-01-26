@@ -7,24 +7,29 @@ import {FlexLayoutModule} from '@angular/flex-layout';
 import { NaukriProfileSummaryComponent } from './components/naukri-profile-summary/naukri-profile-summary.component';
 import { NaukriBodyComponent } from './components/naukri-body/naukri-body.component';
 import { NaukriSupportedCompanyLogosComponent } from './components/naukri-supported-company-logos/naukri-supported-company-logos.component';
+import { NaukriRoutingModule } from './naukari-module.routing';
+import { NaukriModuleComponent } from './naukri.component';
 
 @NgModule({
   declarations: [
     NaukriHeaderComponent,
     NaukriProfileSummaryComponent,
     NaukriBodyComponent,
-    NaukriSupportedCompanyLogosComponent
+    NaukriSupportedCompanyLogosComponent,
+    NaukriModuleComponent
   ],
   imports: [
     AngularMaterialModule,
     FlexLayoutModule,
-    SliderModule
+    SliderModule,
+    NaukriRoutingModule
   ],
   exports: [
     NaukriHeaderComponent,
     NaukriProfileSummaryComponent,
     NaukriBodyComponent,
-    NaukriSupportedCompanyLogosComponent
+    NaukriSupportedCompanyLogosComponent,
+    NaukriModuleComponent
   ],
   providers: []
 })
