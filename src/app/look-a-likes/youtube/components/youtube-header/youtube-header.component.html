@@ -1,7 +1,19 @@
 <mat-toolbar class="black-header">
-    <div class="container" fxFlex fxLayout="row" fxLayoutAlign="space-around center">
-      <div fxFlex="20" style="background-color: blue; width: 100px"></div>
-      <div fxFlex="50" style="background-color: white;  width: 100px"></div>
-      <div fxFlex="30"  style="background-color: lightcyan;  width: 100px"></div>
+    <div class="container" fxFlex fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="10px">
+      <div fxFlex="20" fxLayoutAlign="center center" fxLayoutGap="5px">
+        <mat-icon >reorder</mat-icon>
+        <img src="../../../../../assets/logos/youtube.PNG">
+      </div>
+      <div fxFlex="50">
+        <app-youtube-search-bar></app-youtube-search-bar>
+      </div>
+      <div fxFlex="5"></div>
+      <div fxFlex="25" fxLayoutAlign="space-around center">
+        <mat-icon>video_call</mat-icon>
+        <mat-icon>apps</mat-icon>
+        <mat-icon>message</mat-icon>
+        <mat-icon>notifications</mat-icon>
+        <div mat-card-avatar class="profile-pic"></div>
+      </div>
   </div>
 </mat-toolbar>

@@ -1,0 +1,11 @@
+#search-input-box {
+    width: 85%; 
+    height: 30px;
+    background-color: black;
+    border-color: #343434;
+    outline: none;
+    border-style: solid;
+    padding-left: 25px;
+    font-size: 15px;
+    color: white;
+}
